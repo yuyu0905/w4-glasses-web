@@ -6,19 +6,75 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>首頁</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Roboto:ital,wght@0,400;0,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
   <link rel="stylesheet" href="./assets/style/all.css">
 </head>
 
 <body>
-  <header class="header">
-    這是 header
+  <header class="bg-maroon text-white">
+    <nav class="container flex justify-between items-center flex-wrap">
+      <a href="index.html"><img class="w-20 h-[72px] object-contain" src="assets/images/logo-white.png" alt="logo"></a>
+      <a class="py-5 block h-[80px] md:hidden" href="#" id="header-menu-icon"><span class="material-icons-outlined text-[40px]">menu</span></a>
+      <ul class="hidden w-full active:block text-xl leading-normal md:flex md:w-auto ">
+        <li><a class="block py-[25px] px-8 hover:bg-maroon-dark md:hover:text-maroon-dark md:hover:bg-maroon" href="optical.html">系列鏡框</a></li>
+        <li><a class="block py-[25px] px-8 hover:bg-maroon-dark md:hover:text-maroon-dark md:hover:bg-maroon" href="store.html">門市據點</a></li>
+        <li><a class="block py-[25px] px-8 hover:bg-maroon-dark md:hover:text-maroon-dark md:hover:bg-maroon" href="blog.html">部落格</a></li>
+        <li><a class="block py-[25px] pl-8 pr-0 hover:bg-maroon-dark md:hover:text-maroon-dark md:hover:bg-maroon" href="fqa.html">常見問題</a></li>
+      </ul>
+    </nav>
   </header>
 
   
 <p class="text-3xl font-bold underline">This is a demo.</p>
 
-  <footer class="footer">
-    footer
+  <footer class="bg-maroon text-white py-6 md:pt-12 md:pb-10">
+    <div class="container">
+      <div class="flex flex-row-reverse items-start justify-between pb-6 border-b-[1px] border-solid mb-4
+        md:flex-col md:items-stretch md:pb-8 md:mb-8">
+        <!-- link -->
+        <div class="md:flex md:justify-between md:items-center md:mb-6">
+          <ul class="hidden md:flex">
+            <li class="mr-6"><a class="block hover:text-maroon-dark py-2" href="index.html">首頁</a></li>
+            <li class="mx-6"><a class="block hover:text-maroon-dark py-2" href="optical.html">系列鏡框</a></li>
+            <li class="mx-6"><a class="block hover:text-maroon-dark py-2" href="store.html">門市據點</a></li>
+            <li class="mx-6"><a class="block hover:text-maroon-dark py-2" href="blog.html">部落格</a></li>
+            <li class="ml-6"><a class="block hover:text-maroon-dark py-2" href="fqa.html">常見問題</a></li>
+          </ul>
+          <ul class="flex">
+            <li class="mr-2 md:mr-4"><a href="#"><img class="max-w-[24px] hover:scale-110 md:max-w-[40px]" src="assets/images/ic-social-fb.png" alt="fb"></a></li>
+            <li class="mr-2 md:mr-4"><a href="#"><img class="max-w-[24px] hover:scale-110 md:max-w-[40px]" src="assets/images/ic_social_ig.png" alt="ig"></a></li>
+            <li><a href="#"><img class="max-w-[24px] hover:scale-110 md:max-w-[40px]" src="assets/images/ic_social_line.png" alt="line"></a></li>
+          </ul>
+        </div>
+          
+        <!-- contact -->
+        <ul>
+          <li class="mb-2">
+            <p class="flex">
+              <span class="material-icons-outlined mr-2 md:text-5xl md:mr-4">phone</span>
+              <a class="block hover:text-maroon-dark md:text-4xl md:leading-[54px]" href="tel:+886800-000-000">0800-000-000</a>
+            </p>
+          </li>
+          <li>
+            <p class="flex">
+              <span class="material-icons-outlined mr-2 md:text-5xl md:mr-4">mail</span>
+              <a class="block hover:text-maroon-dark md:text-4xl md:leading-[54px]" href="mailto:glasses@business.com">glasses@business.com</a>
+            </p>
+          </li> 
+        </ul>
+      </div>
+      
+      <!-- copyright -->
+      <div class="md:flex md:justify-between md:items-center">
+        <p class="mb-2 md:mb-0">Copyright © 2020 Glasses.All rights reserved.</p>
+        <ul class="md:flex md:text-sm">
+          <li class="mb-2 md:mb-0 md:mr-12"><a class="block hover:text-maroon-dark" href="#">隱私權政策</a></li>
+          <li><a class="block hover:text-maroon-dark" href="#">服務條款</a></li>
+        </ul>
+      </div>
+      
+    </div>
   </footer>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
