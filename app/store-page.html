@@ -1,0 +1,43 @@
+---
+title: 台北中山旗艦店 - 門市據點
+layout: ./app/layout.ejs
+engine: ejs
+current: store-page
+---
+
+<main class="container pt-10 pb-16 md:pt-20 md:pb-20 lg:pt-24">
+    <!-- 據點選單 -->
+    <section>
+        <h1 class="text-2xl font-bold pl-4 border-l-8 border-maroon mb-6 md:text-5xl md:mb-8">門市據點</h1>
+        <div class="flex items-center mb-6 md:mb-10">
+            <label class="mr-2 md:text-2xl" for="store">選擇分店</label>
+            <select class="w-3/5 text-lg py-1 md:w-1/3" name="store" id="store">
+                <option value="">台北中山旗艦店</option>
+                <option value="">台北綠園店</option>
+                <option value="">台中清水旗艦店</option>
+                <option value="">高雄中正形象店</option>
+                <option value="">高雄夢時代店</option>
+            </select>
+        </div>
+    </section>
+
+    <!-- 據點詳細資訊 -->
+    <section class="flex flex-col lg:flex-row lg:-mx-3">
+        <div class="mb-6 md:flex md:-mx-3 lg:block lg:w-5/12 lg:px-3 lg:mb-0 lg:mx-0">
+            <img class="md:w-1/2 md:px-3 lg:w-full lg:px-0" src="assets/images/storepage-1.png" alt="storepage-1">
+            <div class="md:w-1/2 md:px-3 lg:w-full lg:px-0">
+                <h2 class="text-2xl py-2 px-6 border border-solid">台北中山旗艦店</h2>
+                <div class="text-xl py-4 px-6 border border-solid">
+                    <a class="flex mb-2" href="tel:+8860001234"><span class="material-icons-outlined p-[3px] mr-2">phone</span>電話：(02)000-1234</a>
+                    <p class="flex mb-2"><span class="material-icons-outlined p-[3px] mr-2">schedule</span>營業時間：10:00-21:00</p>
+                    <p class="flex"><span class="material-icons-outlined p-[3px] mr-2">location_on</span>地址：台北市中山區南京東路25巷2-1號</p>
+                </div>
+            </div>
+        </div>
+        <div class="h-52 md:h-[414px] lg:w-7/12 lg:px-3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3614.464947732662!2d121.52489776537892!3d25.052225743713695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z5Y-w5YyX5biC5Lit5bGx5Y2A5Y2X5Lqs5p2x6LevMjXlt7cyLTHomZ8!5e0!3m2!1szh-TW!2stw!4v1659027950028!5m2!1szh-TW!2stw" 
+            width="100%" height="100%" style="border:0;" allowfullscreen="" 
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+</main>
