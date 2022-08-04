@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>門市據點</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Roboto:ital,wght@0,400;0,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <header class="bg-maroon text-white">
+    <nav class="container flex justify-between items-center flex-wrap">
+      <a href="index.html"><img class="w-20 h-[72px] object-contain" src="assets/images/logo-white.png" alt="logo"></a>
+      <a class="py-5 block h-[80px] md:hidden" href="#" id="header-menu-icon"><span class="material-icons-outlined text-[40px]">menu</span></a>
+      <ul class="hidden w-full active:block text-xl md:flex md:w-auto md:active:flex">
+        <li><a class="block py-[25px] px-8 hover:bg-maroon-dark md:hover:text-maroon-dark md:hover:bg-maroon" href="optical.html">系列鏡框</a></li>
+        <li><a class="block py-[25px] px-8 hover:bg-maroon-dark md:hover:text-maroon-dark md:hover:bg-maroon" href="store.html">門市據點</a></li>
+        <li><a class="block py-[25px] px-8 hover:bg-maroon-dark md:hover:text-maroon-dark md:hover:bg-maroon" href="blog.html">部落格</a></li>
+        <li><a class="block py-[25px] pl-8 pr-0 hover:bg-maroon-dark md:hover:text-maroon-dark md:hover:bg-maroon" href="faq.html">常見問題</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  
+<main class="container pt-10 pb-16 md:pt-20 md:pb-20 lg:pt-24">
+    <!-- 據點選單 -->
+    <section>
+        <h1 class="text-2xl font-bold pl-4 border-l-8 border-maroon mb-6 md:text-5xl md:mb-8">門市據點</h1>
+        <div class="flex items-center mb-6 md:mb-10">
+            <label class="mr-2 md:text-2xl" for="area">選擇地區</label>
+            <select class="w-3/5 text-lg py-1 md:w-1/3" name="area" id="area">
+                <option value="">台北市</option>
+                <option value="">台中市</option>
+                <option value="">高雄市</option>
+            </select>
+        </div>
+    </section>
+
+    <!-- 據點列表 -->
+    <section>
+        <ul class="flex flex-wrap md:-mx-3">
+            <li class="mb-6 md:w-1/2 md:px-3 lg:w-1/3">
+                <img src="assets/images/store-1.png" alt="store-1">
+                <h2 class="text-2xl py-2 px-6 border border-solid">台北中山旗艦店</h2>
+                <div class="text-xl py-4 px-6 border border-solid">
+                    <a class="flex items-start mb-2" href="tel:+8860001234"><span class="material-icons-outlined p-[3px] mr-2">phone</span>電話：(02)000-1234</a>
+                    <p class="flex items-start mb-2"><span class="material-icons-outlined p-[3px] mr-2">schedule</span>營業時間：10:00-21:00</p>
+                    <p class="flex items-start"><span class="material-icons-outlined p-[3px] mr-2">location_on</span>地址：台北市中山區南京東路25巷2-1號</p>
+                </div>
+                <a class="block bg-black text-white py-4 text-[19px] text-center hover:opacity-50" href="store-page.html">詳細資訊</a>
+            </li>
+            <li class="mb-6 md:w-1/2 md:px-3 lg:w-1/3">
+                <img src="assets/images/store-2.png" alt="store-2">
+                <h2 class="text-2xl py-2 px-6 border border-solid">台北綠園店</h2>
+                <div class="text-xl py-4 px-6 border border-solid">
+                    <a class="flex items-start mb-2" href="tel:+8860002345"><span class="material-icons-outlined p-[3px] mr-2">phone</span>電話：(02)000-2345</a>
+                    <p class="flex items-start mb-2"><span class="material-icons-outlined p-[3px] mr-2">schedule</span>營業時間：10:00-21:00</p>
+                    <p class="flex items-start"><span class="material-icons-outlined p-[3px] mr-2">location_on</span>地址：台北市中正區復興南路 132-1 號</p>
+                </div>
+                <a class="block bg-black text-white py-4 text-[19px] text-center hover:opacity-50" href="store-page.html">詳細資訊</a>
+            </li>
+            <li class="mb-6 md:w-1/2 md:px-3 lg:w-1/3">
+                <img src="assets/images/store-3.png" alt="store-3">
+                <h2 class="text-2xl py-2 px-6 border border-solid">台中清水旗艦店</h2>
+                <div class="text-xl py-4 px-6 border border-solid">
+                    <a class="flex items-start mb-2" href="tel:+8860001234"><span class="material-icons-outlined p-[3px] mr-2">phone</span>電話：(02)000-1234</a>
+                    <p class="flex items-start mb-2"><span class="material-icons-outlined p-[3px] mr-2">schedule</span>營業時間：10:00-21:00</p>
+                    <p class="flex items-start"><span class="material-icons-outlined p-[3px] mr-2">location_on</span>地址：台中市清水區經南一路 23 號 8 樓</p>
+                </div>
+                <a class="block bg-black text-white py-4 text-[19px] text-center hover:opacity-50" href="store-page.html">詳細資訊</a>
+            </li>
+            <li class="mb-6 md:w-1/2 md:px-3 lg:w-1/3">
+                <img src="assets/images/store-4.png" alt="store-4">
+                <h2 class="text-2xl py-2 px-6 border border-solid">高雄中正形象店</h2>
+                <div class="text-xl py-4 px-6 border border-solid">
+                    <a class="flex items-start mb-2" href="tel:+8860002345"><span class="material-icons-outlined p-[3px] mr-2">phone</span>電話：(07)000-2345</a>
+                    <p class="flex items-start mb-2"><span class="material-icons-outlined p-[3px] mr-2">schedule</span>營業時間：10:00-21:00</p>
+                    <p class="flex items-start"><span class="material-icons-outlined p-[3px] mr-2">location_on</span>地址：高雄市苓雅區中正路 38 號 12 樓</p>
+                </div>
+                <a class="block bg-black text-white py-4 text-[19px] text-center" href="store-page.html">詳細資訊</a>
+            </li>
+            <li class="md:w-1/2 md:px-3 lg:w-1/3">
+                <img src="assets/images/store-5.png" alt="store-5">
+                <h2 class="text-2xl py-2 px-6 border border-solid">高雄夢時代店</h2>
+                <div class="text-xl py-4 px-6 border border-solid">
+                    <a class="flex items-start mb-2" href="tel:+8860001234"><span class="material-icons-outlined p-[3px] mr-2">phone</span>電話：(07)000-1234</a>
+                    <p class="flex items-start mb-2"><span class="material-icons-outlined p-[3px] mr-2">schedule</span>營業時間：10:00-21:00</p>
+                    <p class="flex items-start"><span class="material-icons-outlined p-[3px] mr-2">location_on</span>地址：高雄市前鎮區中華一路 63 號 6 樓</p>
+                </div>
+                <a class="block bg-black text-white py-4 text-[19px] text-center hover:opacity-50" href="store-page.html">詳細資訊</a>
+            </li>
+        </ul>
+    </section>
+</main>
+
+  <footer class="bg-maroon text-white py-6 md:pt-12 md:pb-10">
+    <div class="container">
+      <div class="flex flex-row-reverse items-start justify-between pb-6 border-b-[1px] border-solid mb-4
+        md:flex-col md:items-stretch md:pb-8 md:mb-8">
+        <!-- link -->
+        <div class="md:flex md:justify-between md:items-center md:mb-6">
+          <ul class="hidden md:flex">
+            <li class="mr-6"><a class="block hover:text-maroon-dark py-2" href="index.html">首頁</a></li>
+            <li class="mx-6"><a class="block hover:text-maroon-dark py-2" href="optical.html">系列鏡框</a></li>
+            <li class="mx-6"><a class="block hover:text-maroon-dark py-2" href="store.html">門市據點</a></li>
+            <li class="mx-6"><a class="block hover:text-maroon-dark py-2" href="blog.html">部落格</a></li>
+            <li class="ml-6"><a class="block hover:text-maroon-dark py-2" href="faq.html">常見問題</a></li>
+          </ul>
+          <ul class="flex">
+            <li class="mr-2 md:mr-4"><a href="#"><img class="max-w-[24px] hover:scale-110 md:max-w-[40px]" src="assets/images/ic-social-fb.png" alt="fb"></a></li>
+            <li class="mr-2 md:mr-4"><a href="#"><img class="max-w-[24px] hover:scale-110 md:max-w-[40px]" src="assets/images/ic_social_ig.png" alt="ig"></a></li>
+            <li><a href="#"><img class="max-w-[24px] hover:scale-110 md:max-w-[40px]" src="assets/images/ic_social_line.png" alt="line"></a></li>
+          </ul>
+        </div>
+          
+        <!-- contact -->
+        <ul>
+          <li class="mb-2">
+            <p class="flex">
+              <span class="material-icons-outlined mr-2 md:text-5xl md:mr-4 md:leading-none">phone</span>
+              <a class="block hover:text-maroon-dark md:text-4xl" href="tel:+886800-000-000">0800-000-000</a>
+            </p>
+          </li>
+          <li>
+            <p class="flex">
+              <span class="material-icons-outlined mr-2 md:text-5xl md:mr-4 md:leading-none">mail</span>
+              <a class="block hover:text-maroon-dark md:text-4xl" href="mailto:glasses@business.com">glasses@business.com</a>
+            </p>
+          </li> 
+        </ul>
+      </div>
+      
+      <!-- copyright -->
+      <div class="md:flex md:justify-between md:items-center">
+        <p class="mb-2 md:mb-0">Copyright © 2020 Glasses.All rights reserved.</p>
+        <ul class="md:flex md:text-sm">
+          <li class="mb-2 md:mb-0 md:mr-12"><a class="block hover:text-maroon-dark" href="#">隱私權政策</a></li>
+          <li><a class="block hover:text-maroon-dark" href="#">服務條款</a></li>
+        </ul>
+      </div>
+      
+    </div>
+  </footer>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
