@@ -7,6 +7,14 @@ module.exports = {
           'light': '#FBF2F2',
           DEFAULT: '#AA0601',
           'dark': '#650300'
+        },
+        "brown" : {
+          'light': '#B75929',
+          DEFAULT: '#5F3E2D',
+        },
+        "grey" : {
+          'light': '#F2F2F2',
+          DEFAULT: '#555555',
         }
       },
       fontSize: {
