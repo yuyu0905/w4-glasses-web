@@ -1,0 +1,95 @@
+---
+title: 情人特別企劃 - 部落格
+layout: ./app/layout.ejs
+engine: ejs
+current: blog-page
+---
+
+<!-- 部落格選單 -->
+<div class="hidden bg-maroon-dark md:block">
+    <nav class="container flex justify-between items-center">
+        <ul class="flex font-bold text-white md:text-xl">
+            <li class="mr-12"><a class="block py-[13px] hover:text-maroon-light" href="#">最新消息</a></li>
+            <li class="mr-12"><a class="block py-[13px] hover:text-maroon-light" href="#">特別企劃</a></li>
+            <li class="mr-12"><a class="block py-[13px] hover:text-maroon-light" href="#">新品上市</a></li>
+            <li><a class="block py-[13px] hover:text-maroon-light" href="#">鏡框小知識</a></li>
+        </ul>
+        <a href="#"><span class="material-icons-outlined text-white text-[40px] py-2 hover:text-maroon-light">search</span></a>
+    </nav>
+</div>
+
+<main class="pt-4 pb-16 md:pt-2 md:pb-20 lg:pt-6">
+    <!-- 部落格文章內容 -->
+    <section class="container">
+        <!-- 麵包屑 -->
+        <ul class="flex mb-2">
+            <li><a class="hover:text-maroon" href="#">首頁</a><span class="m-1">/</span></li>
+            <li><a class="hover:text-maroon" href="#">部落格</a><span class="m-1">/</span></li>
+            <li><a class="hover:text-maroon" href="#">特別企劃</a><span class="m-1">/</span></li>
+            <li><a class="text-maroon" href="#">情人特別企劃</a></li>
+        </ul>
+        <!-- 文章類別 -->
+        <ul class="flex mb-2">
+            <li class="mr-4"><a class="block font-bold text-maroon hover:text-maroon-dark md:text-2xl" href="#">#special</a></li>
+            <li><a class="block font-bold text-maroon hover:text-maroon-dark md:text-2xl" href="#">#event</a></li>
+        </ul>
+
+        <div class="flex flex-wrap md:-mx-3 md:mb-10">
+            <div class="md:w-9/12 md:px-3 lg:w-8/12">
+                <h1 class="text-2xl md:text-5xl">情人特別企劃</h1>
+                <h2 class="font-medium mb-4 md:text-2xl md:mb-6 lg:mb-4">2020 Valentine’s Special</h2>
+                <img class="mb-2 md:mb-4 lg:mb-2" src="assets/images/blogpage-1.png" alt="blogpage-1">
+                <p class="text-grey mb-4 md:mb-6 lg:mb-10">一年一度西洋情人節即將到來，我們推出最強「情人節企劃」，為這個甜蜜的節日加溫。<br>
+                    本次拍攝的鏡框款式與 NEEDS CLASSIC 聯名設計款，偶爾跟另一半來個低調情侶單品，結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！
+                </p>
+                <img class="mb-2 md:mb-4 lg:mb-2" src="assets/images/blogpage-2.png" alt="blogpage-2">
+                <p class="text-grey mb-4 md:mb-6 lg:mb-10">一年一度西洋情人節即將到來，我們推出最強「情人節企劃」，為這個甜蜜的節日加溫。<br>
+                    本次拍攝的鏡框款式與 NEEDS CLASSIC 聯名設計款，偶爾跟另一半來個低調情侶單品，結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！
+                </p>
+                <img class="mb-2 md:mb-4 lg:mb-2" src="assets/images/blogpage-3.png" alt="blogpage-3">
+                <p class="text-grey mb-4 md:mb-6 lg:mb-10">一年一度西洋情人節即將到來，我們推出最強「情人節企劃」，為這個甜蜜的節日加溫。<br>
+                    本次拍攝的鏡框款式與 NEEDS CLASSIC 聯名設計款，偶爾跟另一半來個低調情侶單品，結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！
+                </p>
+                <img class="mb-2 md:mb-4 lg:mb-2" src="assets/images/blogpage-4.png" alt="blogpage-4">
+                <p class="text-grey">2/14(五)-2/20(日)<br>
+                    至本店單筆消費滿2980元, 就送情人節限定眼鏡盒1個<br>
+                    期間優惠還有~~持他牌鏡框更換鏡片 薄型非球面鏡片折300元<br>
+                    濾藍光鏡片折500元<br>
+                    快快帶上另一半<br>
+                    讓彼此每一次睜開眼，都被愛的視線包圍!
+                </p>
+            </div>
+            <div class="hidden text-maroon md:block md:w-3/12 md:px-3 lg:w-3/12">
+                <h2 class="font-bold mb-2 lg:text-[32px] lg:leading-normal lg:mb-1">
+                    <span class="material-icons-outlined w-6 font-bold align-middle lg:w-12 lg:mr-2 lg:text-5xl lg:leading-none">label</span>TAGS
+                </h2>
+                <ul class="flex flex-wrap">
+                    <li class="mr-4 lg:mr-6 lg:mb-1"><a class="block font-bold hover:text-maroon-dark lg:text-2xl" href="#">#special</a></li>
+                    <li class="mr-4 lg:mr-6 lg:mb-1"><a class="block font-bold hover:text-maroon-dark lg:text-2xl" href="#">#sale</a></li>
+                    <li class="mr-4 lg:mr-6 lg:mb-1"><a class="block font-bold hover:text-maroon-dark lg:text-2xl" href="#">#new_item</a></li>
+                    <li class="mr-4 lg:mr-6 lg:mb-1"><a class="block font-bold hover:text-maroon-dark lg:text-2xl" href="#">#interview</a></li>
+                    <li class="mr-4 lg:mr-6 lg:mb-1"><a class="block font-bold hover:text-maroon-dark lg:text-2xl" href="#">#trivia</a></li>
+                    <li class="mr-4 lg:mr-6 lg:mb-1"><a class="block font-bold hover:text-maroon-dark lg:text-2xl" href="#">#news</a></li>
+                    <li><a class="block font-bold hover:text-maroon-dark lg:text-2xl" href="#">#event</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="hidden md:block">
+            <ul class="flex pb-4 mb-6 border border-solid border-b-1 border-x-0 border-t-0 border-grey">
+                <li class="mr-4"><a class="block font-bold hover:scale-110" href="#"><p class="font-bold">share</p></a></li>
+                <li class="mr-4"><a href="#"><img class="w-6 hover:scale-110" src="assets/images/logo-facebook.png" alt="facebook"></a></li>
+                <li><a href="#"><img class="w-6 hover:scale-110" src="assets/images/logo-instagram.png" alt="instagram"></a></li>
+            </ul>
+            <div class="flex justify-between">
+                <a class="block hover:text-maroon mr-2" href="#">
+                    <span class="material-icons-outlined w-6 align-middle">arrow_back</span>上一篇：街頭潮人訪問 1
+                </a>
+                <a class="block hover:text-maroon mr-2" href="#">
+                    下一篇：街頭潮人訪問 2<span class="material-icons-outlined w-6 align-middle">arrow_forward</span>
+                </a>
+            </div>
+        </div>
+        
+    </section>
+</main>
